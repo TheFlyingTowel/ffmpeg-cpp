@@ -290,7 +290,8 @@ int main(int argc, char **argv)
 	cout << "Encoding complete!" << endl;
 	cout << "Press any key to continue..." << endl;
 
-	getchar();
+	system("PAUSE");
+	//getchar();
 
 	return 0;
 }
